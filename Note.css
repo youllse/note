@@ -1,0 +1,97 @@
+body{
+    display: flex;
+    justify-content:center ;
+    color:white;
+}
+.over_container{
+    background-color: black;
+    width: 600px;
+    height: 900px;
+    color:white;
+    padding-left: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin:0;
+}
+h1{
+    font-size: 60px;
+    height: 70px;
+    margin:0;
+    padding:0;
+    padding-bottom: 10px;
+}
+input{
+    margin:0;
+    padding:0;
+   width: 550px;
+   height: 50px;
+   font-size: 30px;
+   background-color: black;
+   color: white;
+   border-color: white;
+   border-radius: 15px;
+   margin-bottom: 10px;
+}
+.main_btm{
+    margin:0;
+    padding:0;
+    background-color: black;
+    color: blueviolet;
+    border-color: blueviolet;
+    width: 550px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.main_btm:hover{
+    background-color: white;
+}
+li{
+    width: 550px;
+    height: 50px;
+    color:black;
+    background-color: white;
+    border-radius: 15px;
+    margin-right: 70px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    margin-top: 15px;
+    padding-left: 10px;
+}
+#btm_remove{
+    height: 48px;
+    width: 48px;
+    background-color: white;
+    color:red;
+    margin-right: 10px;
+    border-color: red;
+    border-radius: 11px;
+}
+#btm_completed{
+    height: 48px;
+    width: 48px;
+    background-color: white;
+    color:green;
+    margin-right: 10px;
+    border-color: green;
+    border-radius: 11px;
+}
+#btm_remove:hover{
+    background-color: red;
+    color: white;
+    border-color: white;
+}
+#btm_completed:hover{
+    background-color: green;
+    color: white;
+    border-color: white;
+}
+.text-decoration-line-through{
+    text-decoration: line-through;
+}
+.warning{
+    color:chocolate;
+    background-color: white;
+}
